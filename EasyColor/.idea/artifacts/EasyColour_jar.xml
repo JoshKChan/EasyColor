@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="EasyColour:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EasyColour_jar</output-path>
+    <root id="archive" name="EasyColour.jar">
+      <element id="module-output" name="EasyColor" />
+    </root>
+  </artifact>
+</component>
