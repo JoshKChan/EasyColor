@@ -19,7 +19,27 @@ Using EasyColor
         java -jar EasyColor.jar
         
     From there on use the commands in the next section to control the program.
+    
+Formatting Schemes
 
+The scheme files use an arbitrary extension (.sch) to distinguish them. They can be read as plain text files.
+Note that EasyColor reads these files using the InternalReader, so lines beginning with a semicolon ';', will
+not be processed and can be used to place comments.
+
+At the very beginning of a scheme is where user defined colours should be defined. 
+These should be provided in hex.
+Below them, the headers break up different files and their specific colour schemes. There may be duplicate types, since
+programs such as Rainmeter may have multiple modules that use multiple files. As a short example,
+    
+    red=#ff0000
+    green=#00ff00
+    [Program|filePath]
+    ;Explicit colour assignemnt
+    label1=#ff0000
+    ;Colour assignment using user defined labels
+    label2=red
+    ...
+    
 Commands
     exit - Exit the program
     read - Reads the files specified in "path.txt" to make a scheme file.
