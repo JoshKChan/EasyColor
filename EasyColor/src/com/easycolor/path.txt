@@ -3,8 +3,8 @@
 ; where acceptable type lables include:
 ;   bbLean
 ;   Rainmeter
-;bbLean=C:\bbLean\styles\3colours\BALAZEAL
+;bbLean=C:\bbLean\styles\3colours\BB_THEME
 ;Rainmeter=C:\Users\Joshua\Documents\Rainmeter\Skins\bb_bar\bb_bar.ini
 ;NppExec=C:\Users\Joshua\AppData\Roaming\Notepad++\plugins\config\NppExec.ini
-bbLean=BALAZEAL
+bbLean=BB_THEME
 Rainmeter=bb_bar.ini

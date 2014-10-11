@@ -1,9 +1,0 @@
-EasyColor by Joshua Chan 2014
-====================================
-Commands
-    exit - Exit the program
-    read - Reads the files specified in "path.txt" to make a scheme file.
-           If there is no "path.txt" file, an example will be generated.
-    read c - Same as read, but keeps the original colors in the scheme file.
-    apply   - Uses "scheme.schm" to apply colors to the appropriate files.
-              Automatically makes backups of the originals before editing.
