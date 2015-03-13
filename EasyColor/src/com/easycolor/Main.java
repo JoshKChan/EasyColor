@@ -39,7 +39,7 @@ public class Main {
 
     private static String SCHEME_DEFAULT_TEXT = ";Welcome to EasyColor!\n" +
             ";Lines beginning with a semicolon ';' are ignored\n" +
-            ";Supported filetypes: \n\tbbLean\n;\tRainmeter\n" +
+            ";Supported filetypes: \n;\tbbLean\n;\tRainmeter\n" +
             ";An example of a path:\n;\tRainmeter=C:\\Users\\You\\Documents\\Rainmeter\\Skins\\mySkin\\widget.ini";
 
     public static void main(String[] args) {
