@@ -8,8 +8,9 @@ Supported Programs:
 
 Requirements
 
-    Windows
     Java 1.7.0_67
+    
+    EasyColor was written and tested on Windows 7. 
     
 Using EasyColor
 
@@ -22,14 +23,9 @@ Using EasyColor
     
 Formatting Schemes
 
-The scheme files use an arbitrary extension (.sch) to distinguish them. They can be read as plain text files.
-Note that EasyColor reads these files using the InternalReader, so lines beginning with a semicolon ';', will
-not be processed and can be used to place comments.
+The scheme files use an arbitrary extension (.sch) to distinguish them. They can be read as plain text files. Note that EasyColor reads these files using the InternalReader, so lines beginning with a semicolon ';', will not be processed and can be used to place comments.
 
-At the very beginning of a scheme is where user defined colours should be defined. 
-These should be provided in hex.
-Below them, the headers break up different files and their specific colour schemes. There may be duplicate types, since
-programs such as Rainmeter may have multiple modules that use multiple files. As a short example,
+At the very beginning of a scheme is where user defined colours should be defined.  These should be provided in hex. Below them, the headers break up different files and their specific colour schemes. There may be duplicate types, since programs such as Rainmeter may have multiple modules that use multiple files. As a short example,
     
     red=#ff0000
     green=#00ff00
@@ -39,6 +35,8 @@ programs such as Rainmeter may have multiple modules that use multiple files. As
     ;Colour assignment using user defined labels
     label2=red
     ...
+    
+Breaking down the header further, it consists of two fields enclosed by square brackets and seperated by a pipe character: The program name, and the file path. The program name should match one of the names of the supported programs. 
     
 Commands
     exit - Exit the program
